@@ -293,6 +293,7 @@
       @media (min-width: 761px) and (max-width: 1100px) {
         .hero {
           width: min(100% - 64px, 1000px);
+          margin-bottom: -120px;
           grid-template-columns: minmax(0, 1fr) minmax(250px, .74fr);
           align-items: start;
           gap: 8px;
@@ -308,7 +309,7 @@
 
         .hero-art img {
           width: min(132%, 540px);
-          transform: translateY(-140px);
+          transform: translateY(-112px);
         }
       }
 
