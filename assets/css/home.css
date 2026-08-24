@@ -948,7 +948,9 @@
           grid-auto-rows: minmax(32px, auto);
           align-items: center;
           gap: 10px 13px;
+          width: min(100%, 250px);
           height: auto;
+          margin: 0 auto;
           padding: 4px 0;
         }
 
@@ -961,10 +963,30 @@
           height: auto;
         }
 
-        .timeline-rail::after,
-        .timeline-zero,
-        .timeline-zero-label {
+        .timeline-rail::after {
           display: none;
+        }
+
+        /* Conserva la marca del año 0 también en la cronología vertical. */
+        .timeline-zero {
+          position: relative;
+          top: auto;
+          left: auto;
+          grid-column: 1;
+          justify-self: center;
+          width: 4px;
+          height: 42px;
+          background: var(--ink);
+        }
+
+        .timeline-zero-label {
+          position: relative;
+          top: auto;
+          left: auto;
+          grid-column: 2;
+          transform: none;
+          align-self: center;
+          font-size: 15px;
         }
 
         .timeline-dot {
