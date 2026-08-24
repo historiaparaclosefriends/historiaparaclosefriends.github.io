@@ -3,7 +3,7 @@
   const fallbackVisuals = {
     civilizaciones: { color: '#3170E9', pale: '#96C7FA', image: 'categoria-civilizaciones.png' },
     espana: { color: '#DE7835', pale: '#F5C6A4', image: 'categoria-espana.png' },
-    revoluciones: { color: '#EBB6C7', pale: '#FCECF7', image: 'categoria-revoluciones.png' },
+    revoluciones: { color: '#EBB6C7', pale: '#EBB6C7', image: 'categoria-revoluciones.png' },
     arte: { color: '#7FCC6E', pale: '#CAEAC2', image: 'categoria-arte.png' }
   };
   const escapeHtml = value => String(value ?? '').replace(/[&<>'"]/g, character => ({
