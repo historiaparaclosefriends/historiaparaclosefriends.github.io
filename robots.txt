@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://historiaparaclosefriends.github.io/sitemap.xml
