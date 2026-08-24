@@ -448,7 +448,7 @@
         overflow: hidden;
         border: 1px solid rgba(23, 23, 23, .12);
         border-radius: 20px;
-        background: color-mix(in srgb, var(--category-color) 42%, white);
+        background: var(--category-background, color-mix(in srgb, var(--category-color) 42%, white));
         color: var(--ink);
         text-decoration: none;
       }
