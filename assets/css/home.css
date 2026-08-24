@@ -311,6 +311,23 @@
         letter-spacing: -.055em;
       }
 
+      /* El emoji ocupa su propia columna: si el texto salta de línea,
+         continúa bajo la frase y no bajo el emoji. */
+      .emoji-heading {
+        display: flex;
+        align-items: flex-start;
+        gap: .14em;
+      }
+
+      .emoji-heading .heading-emoji {
+        flex: 0 0 auto;
+        line-height: inherit;
+      }
+
+      .emoji-heading .heading-copy {
+        min-width: 0;
+      }
+
       .episode-card,
       .episodes-more {
         min-height: 220px;
@@ -401,8 +418,6 @@
       }
 
       .categories-heading {
-        display: flex;
-        align-items: flex-start;
         gap: 14px;
         max-width: 100%;
         margin: 0;
@@ -634,6 +649,12 @@
         letter-spacing: -.07em;
       }
 
+      .bibliography-note .emoji-heading,
+      .listen-section .emoji-heading {
+        justify-content: center;
+        text-align: left;
+      }
+
       .bibliography-card {
         min-height: 170px;
         padding: 22px 18px;
@@ -854,13 +875,7 @@
         }
 
         .hero-art {
-          min-height: 0;
-          margin-bottom: 0;
-        }
-
-        .hero-art img {
-          width: min(112%, 440px);
-          transform: translateY(-50px);
+          display: none;
         }
 
         .latest {
@@ -911,13 +926,65 @@
         .random-callout {
           width: min(100% - 32px, 600px);
           display: block;
-          padding: 25px 22px 23px;
-          }
+          padding: 25px 22px 34px;
+        }
+
+        .random-button {
+          display: flex;
+          width: fit-content;
+          margin: 22px auto 0;
+        }
 
         .timeline-preview {
           width: min(100% - 32px, 600px);
-          min-height: 300px;
+          min-height: 0;
           padding: 18px 4px 24px;
+        }
+
+        /* En móvil la línea se convierte en una cronología vertical táctil. */
+        .timeline-rail {
+          display: grid;
+          grid-template-columns: 32px minmax(0, 1fr);
+          grid-auto-rows: minmax(32px, auto);
+          align-items: center;
+          gap: 10px 13px;
+          height: auto;
+          padding: 4px 0;
+        }
+
+        .timeline-rail::before {
+          top: 10px;
+          bottom: 10px;
+          left: 14px;
+          right: auto;
+          width: 4px;
+          height: auto;
+        }
+
+        .timeline-rail::after,
+        .timeline-zero,
+        .timeline-zero-label {
+          display: none;
+        }
+
+        .timeline-dot {
+          position: relative;
+          top: auto;
+          left: auto !important;
+          grid-column: 1;
+          width: 30px;
+          height: 30px;
+        }
+
+        .timeline-date {
+          position: relative;
+          top: auto;
+          left: auto !important;
+          grid-column: 2;
+          transform: none;
+          align-self: center;
+          font-size: 15px;
+          white-space: normal;
         }
 
         .timeline-card {
@@ -966,11 +1033,10 @@
         .footer-meta { flex-direction: column; }
 
         .random-button {
-          margin-top: 50px;
           min-height: 54px;
           padding: 0 23px;
           font-size: 15px;
-          }
+        }
       }
 
       @media (max-width: 460px) {
