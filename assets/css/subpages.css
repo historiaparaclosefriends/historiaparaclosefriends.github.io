@@ -50,6 +50,15 @@
 .privacy-accordions .legal-item[open] .legal-toggle::after { background: var(--orange); }
 .privacy-accordions .legal-copy { border-top-color: var(--ink); }
 
+/* Política de cookies: misma estructura, usando rosa y texto negro. */
+.cookies-accordions .legal-toggle { background: var(--pink); }
+.cookies-accordions .legal-toggle::before,
+.cookies-accordions .legal-toggle::after { background: var(--ink); }
+.cookies-accordions .legal-item[open] summary { background: var(--pink); color: var(--ink); }
+.cookies-accordions .legal-item[open] .legal-toggle { background: var(--paper); }
+.cookies-accordions .legal-item[open] .legal-toggle::before,
+.cookies-accordions .legal-item[open] .legal-toggle::after { background: var(--ink); }
+
 /* Episodios */
 .episode-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; }
 .episode-filter {
