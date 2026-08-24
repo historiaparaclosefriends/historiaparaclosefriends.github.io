@@ -1,1 +1,347 @@
-{"version":1,"generated_at":"2026-08-24T15:48:47.294Z","home":{"hero_titulo_linea_1":"Aprende","hero_titulo_linea_2":"historia","hero_bocadillo":"SIN TURRA","hero_descripcion":"Un podcast de historia para descubrir las movidas que ocurrieron muuuuuuuuchísimo antes de que existiera Instagram.","hero_cta_principal":"Escucha el podcast","hero_url_principal":"https://open.spotify.com/show/4cjYSY9JofzA4vvLkDBrxP?si=7zkB735nSqi2lnG7UyN2WA","hero_cta_secundario":"Explorar episodios","hero_url_secundario":"https://sites.google.com/view/historia-para-close-friends/episodios","hero_imagen_drive_url":"https://drive.google.com/file/d/1H_5J8LtucdkjaiEBlu1MPBPgvoKdPlcq/view?usp=sharing","latest_heading":"🔥 El último episodio","previous_heading":"¿Te has perdido los anteriores?","previous_description":"Descubre por dónde empezar, salta de episodio en episodio y piérdete por la historia.","previous_link_label":"Explorar episodios →","categories_heading":"🤔 ¿Qué historia te pide el cuerpo?","random_heading":"O pasa de todo y elige un episodio al azar.","random_button_label":"🎲 Sorpréndeme","timeline_heading":"🧭 Viaja por la Historia","timeline_subtitle":"Viajar en el tiempo nunca fue tan fácil: elige una fecha y dale al play.","timeline_default_title":"Viajar en el tiempo nunca fue tan fácil","timeline_default_description":"Elige una fecha y descubre qué episodio vive por ahí.","timeline_button_label":"Escuchar episodio →","resources_heading":"📚 Para seguir tirando del hilo","resources_description":"Las referencias que hay detrás de cada episodio, reunidas en PDF.","resources_link_label":"Ver fuentes →","listen_heading":"🎧 ¡Escúchalo donde quieras!","listen_description":"Elige tu plataforma de confianza, que del contenido me encargo yo.","latest_button_label":"🎧 Escuchar"},"links":[{"clave":"nav_inicio","texto":"Inicio","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec","target":"_self","activo":"sí"},{"clave":"nav_episodios","texto":"Episodios","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios","target":"_self","activo":"sí"},{"clave":"nav_timeline","texto":"Timeline","url":"#timeline","target":"","activo":"no"},{"clave":"nav_bibliografia","texto":"Bibliografía","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=bibliografia","target":"_self","activo":"sí"},{"clave":"nav_sobre_mi","texto":"Sobre mí","url":"#sobre-mi","target":"","activo":"no"},{"clave":"hero_explorar","texto":"Explorar episodios","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios","target":"_self","activo":"sí"},{"clave":"bibliografia_fuentes","texto":"Ver bibliografía","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=bibliografia","target":"_self","activo":"sí"},{"clave":"legal_aviso","texto":"Aviso legal","url":"","target":"","activo":"no"},{"clave":"legal_privacidad","texto":"Política de privacidad","url":"","target":"","activo":"no"},{"clave":"legal_cookies","texto":"Política de cookies","url":"","target":"","activo":"no"}],"social":[{"orden":"1","nombre":"Instagram","url":"https://www.instagram.com/historiaparaclosefriends/","icono_drive_url":"https://drive.google.com/file/d/1cCptE7KwOWeuchUhKpava25b9fPLKctH/view?usp=sharing"},{"orden":"2","nombre":"TikTok","url":"https://www.tiktok.com/@historiaparaclosefriends","icono_drive_url":"https://drive.google.com/file/d/1xEMSBCEa4f2no5Tf41IFZjwOBk4YvuhJ/view?usp=sharing"},{"orden":"3","nombre":"YouTube","url":"https://www.youtube.com/@HistoriaparaCloseFriends","icono_drive_url":"https://drive.google.com/file/d/1nobH3VTa8Yd0nc8uysNp1WRj3jnRv5Lj/view?usp=sharing"}],"categories":[{"id":"civilizaciones","nombre":"Civilizaciones e imperios","descripcion":"Los grandes mundos, reinos e imperios de la historia","imagen_drive_url":"https://drive.google.com/file/d/17w3SDR43uvp883V8TYmvr5uf-rp-MUix/view?usp=sharing","color":"#3170E9","orden":"1","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=civilizaciones-e-imperios"},{"id":"espana","nombre":"España y antes de serlo","descripcion":"Historias, dramas y aventuras ocurridas en España","imagen_drive_url":"https://drive.google.com/file/d/1ebqqOhkCOD82H92b5TJD4b4hytgLrafH/view?usp=sharing","color":"#DE7835","orden":"2","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=espana-y-antes-de-serlo"},{"id":"revoluciones","nombre":"Revoluciones y conflictos","descripcion":"Cuando todo se lía y cambia el mundo","imagen_drive_url":"https://drive.google.com/file/d/17wEdAvgREeVxDuijRIOuxgrdq4sBqNVp/view?usp=sharing","color":"#F9DDF1","orden":"3","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=revoluciones-y-conflictos"},{"id":"arte","nombre":"Arte, cultura y sociedad","descripcion":"Las ideas, obras y personas que cambiaron su época","imagen_drive_url":"https://drive.google.com/file/d/1Mjxpqhd6Q6RpJMRL38ibnHZsVzP23oHm/view?usp=sharing","color":"#7FCC6E","orden":"4","url":"https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=arte-cultura-y-sociedad"}],"episodes":[{"fecha":"2025-06-12","titulo":"Los sumerios","subtitulo":"Cuando empezamos a apuntar las cosas","categorias":"civilizaciones","periodo":"4000 a. C.","url_audio":"https://open.spotify.com/episode/36iQ0MnV1ErNXGcHwtnQJB?si=sDeidyCbREKJJA_oWn39VQ","url_youtube":"https://youtu.be/dgxzEh_vRuQ?si=ZrFpUPbqL4z8kOqH"},{"fecha":"2025-06-26","titulo":"La Revolución Rusa","subtitulo":"Cuando ya se cantaba Ra Ra Rasputín","categorias":"revoluciones","periodo":"1917","url_audio":"https://open.spotify.com/episode/7fluqNDASvkp8TzBmSIO6t?si=VdCs88b4ScWyR0alE_IUyA","url_youtube":"https://youtu.be/uCS-tKrvb50?si=qtB6nNqz7rHe4IVa"},{"fecha":"2025-07-10","titulo":"La Guerra de Sucesión Castellana","subtitulo":"Cuando un chisme cambió la historia","categorias":"espana, revoluciones","periodo":"1475","url_audio":"https://open.spotify.com/episode/1epIcgFguvluEEgpZjQtOz?si=p-bO8TI3Qs-KTj0jT1DJ_Q","url_youtube":"https://youtu.be/5ieak59s9sQ?si=mkEZ4ZA6bFjllanK"},{"fecha":"2025-07-24","titulo":"La Polinesia","subtitulo":"Cuando tu continente es el océano","categorias":"civilizaciones","periodo":"1000 a. C.","url_audio":"https://open.spotify.com/episode/1q4ULG5SOAWNvBuM3qY1Zv?si=C1--dmCXR6WhQMPNRmQcew","url_youtube":"https://youtu.be/9jisNYQeTAw?si=63KYO6N1W6KCjqKG"},{"fecha":"2025-08-14","titulo":"Las Guerras del Opio","subtitulo":"Cuando Reino Unido fue el mayor narcoestado","categorias":"revoluciones","periodo":"1839","url_audio":"https://open.spotify.com/episode/5ItjINBfWh4BMj1CPFTyOH?si=cNojufWdTguf79rXkCC-0w","url_youtube":"https://youtu.be/fLsaO9FSR9I?si=xBvGVmbNykyd169s"},{"fecha":"2025-08-28","titulo":"Los Médici","subtitulo":"Cuando el arte era la mejor campaña electoral","categorias":"arte","periodo":"s. XVI","url_audio":"https://open.spotify.com/episode/6S7gpveTMYnoyaGd8kxKnS?si=YWPWDUM5SoCkTArfy4Qxqg","url_youtube":"https://youtu.be/EZzhiihy4yo?si=La_mblrqsVUAKJmT"},{"fecha":"2025-09-11","titulo":"El Imperio Inca","subtitulo":"Cuando todos los caminos llevaban al Cusco","categorias":"civilizaciones","periodo":"s. XV","url_audio":"https://open.spotify.com/episode/5DkbyPupJmuXKtk9vSD0R6?si=wF7uPBuUTeCz4tcjP2odVQ","url_youtube":"https://youtu.be/fRmm9deh9Fs?si=vfhG-oJNlVFyd1Rk"},{"fecha":"2025-10-02","titulo":"La Segunda República","subtitulo":"Cuando España quiso ser una moderna","categorias":"espana, revoluciones","periodo":"1931","url_audio":"https://open.spotify.com/episode/4NCBP64QAcpdjQfnzOR5N7?si=_kTQNOcyS-2eYOPuRGy_GA","url_youtube":"https://youtu.be/tJ8lA46eXoE?si=6B8XJwSWfJjshPBf"}],"bibliography":[{"orden":"1","titulo":"Los sumerios","subtitulo":"Cuando empezamos a apuntar las cosas","url_pdf":"https://drive.google.com/file/d/1dAefnvV_jUDMWLtkUl2y-2g-EsCZ5_b2/view?usp=sharing"},{"orden":"2","titulo":"La Revolución Rusa","subtitulo":"Cuando ya se cantaba Ra Ra Rasputín","url_pdf":"https://drive.google.com/file/d/1D4tJXdibsKtZHbertivFGtZIK31vdCY3/view?usp=sharing"},{"orden":"3","titulo":"La Guerra de Sucesión Castellana","subtitulo":"Cuando un chisme cambió la historia","url_pdf":"https://drive.google.com/file/d/11nnHhecQF366WoGIEKU2nrYl-w-COhXz/view?usp=sharing"},{"orden":"4","titulo":"La Polinesia","subtitulo":"Cuando tu continente es el océano","url_pdf":"https://drive.google.com/file/d/1z38pQXuTIM6c7Xg1MGtUBRXNg3iPBSEK/view?usp=sharing"},{"orden":"5","titulo":"Las Guerras del Opio","subtitulo":"Cuando Reino Unido fue el mayor narcoestado","url_pdf":"https://drive.google.com/file/d/1eLV8bbj_gb-wShPkVfylb3CAuFwouMWh/view?usp=sharing"},{"orden":"6","titulo":"Los Médici","subtitulo":"Cuando el arte era la mejor campaña electoral","url_pdf":"https://drive.google.com/file/d/1dh3CyAdGBdEXh1wueBfcUF6F2OrFkz4w/view?usp=sharing"},{"orden":"7","titulo":"El Imperio Inca","subtitulo":"Cuando todos los caminos llevaban al Cusco","url_pdf":"https://drive.google.com/file/d/1p4WtjLcpMDShs-fon3FCpXzpWCWpovC0/view?usp=sharing"},{"orden":"8","titulo":"La Segunda República","subtitulo":"Cuando España quiso ser una moderna","url_pdf":"https://drive.google.com/file/d/1wH2LW4FiNjAPUmPFFSYN0Wex3ZIbKYR-/view?usp=sharing"}],"platforms":[{"orden":"1","nombre":"Spotify","url":"https://open.spotify.com/show/4cjYSY9JofzA4vvLkDBrxP?si=7zkB735nSqi2lnG7UyN2WA"},{"orden":"2","nombre":"Apple Podcasts","url":"https://podcasts.apple.com/es/podcast/historia-para-close-friends/id6801561675"},{"orden":"3","nombre":"YouTube","url":"https://www.youtube.com/@HistoriaparaCloseFriends/podcasts"},{"orden":"4","nombre":"iVoox","url":"https://go.ivoox.com/sq/3216938"}]}
+{
+  "version": 1,
+  "generated_at": "2026-08-24T16:38:27.417Z",
+  "home": {
+    "hero_titulo_linea_1": "Aprende",
+    "hero_titulo_linea_2": "historia",
+    "hero_bocadillo": "SIN TURRA",
+    "hero_descripcion": "Un podcast de historia para descubrir las movidas que ocurrieron muuuuuuuuchísimo antes de que existiera Instagram.",
+    "hero_cta_principal": "Escucha el podcast",
+    "hero_url_principal": "https://open.spotify.com/show/4cjYSY9JofzA4vvLkDBrxP?si=7zkB735nSqi2lnG7UyN2WA",
+    "hero_cta_secundario": "Explorar episodios",
+    "hero_url_secundario": "https://sites.google.com/view/historia-para-close-friends/episodios",
+    "hero_imagen_drive_url": "https://drive.google.com/file/d/1H_5J8LtucdkjaiEBlu1MPBPgvoKdPlcq/view?usp=sharing",
+    "latest_heading": "🔥 El último episodio",
+    "previous_heading": "¿Te has perdido los anteriores?",
+    "previous_description": "Descubre por dónde empezar, salta de episodio en episodio y piérdete por la historia.",
+    "previous_link_label": "Explorar episodios →",
+    "categories_heading": "🤔 ¿Qué historia te pide el cuerpo?",
+    "random_heading": "O pasa de todo y elige un episodio al azar.",
+    "random_button_label": "🎲 Sorpréndeme",
+    "timeline_heading": "🧭 Viaja por la Historia",
+    "timeline_subtitle": "Viajar en el tiempo nunca fue tan fácil: elige una fecha y dale al play.",
+    "timeline_default_title": "Viajar en el tiempo nunca fue tan fácil",
+    "timeline_default_description": "Elige una fecha y descubre qué episodio vive por ahí.",
+    "timeline_button_label": "Escuchar episodio →",
+    "resources_heading": "📚 Para seguir tirando del hilo",
+    "resources_description": "Las referencias que hay detrás de cada episodio, reunidas en PDF.",
+    "resources_link_label": "Ver fuentes →",
+    "listen_heading": "🎧 ¡Escúchalo donde quieras!",
+    "listen_description": "Elige tu plataforma de confianza, que del contenido me encargo yo.",
+    "latest_button_label": "🎧 Escuchar"
+  },
+  "links": [
+    {
+      "clave": "nav_inicio",
+      "texto": "Inicio",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec",
+      "target": "_self",
+      "activo": "sí"
+    },
+    {
+      "clave": "nav_episodios",
+      "texto": "Episodios",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios",
+      "target": "_self",
+      "activo": "sí"
+    },
+    {
+      "clave": "nav_timeline",
+      "texto": "Timeline",
+      "url": "#timeline",
+      "target": "",
+      "activo": "no"
+    },
+    {
+      "clave": "nav_bibliografia",
+      "texto": "Bibliografía",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=bibliografia",
+      "target": "_self",
+      "activo": "sí"
+    },
+    {
+      "clave": "nav_sobre_mi",
+      "texto": "Sobre mí",
+      "url": "#sobre-mi",
+      "target": "",
+      "activo": "no"
+    },
+    {
+      "clave": "hero_explorar",
+      "texto": "Explorar episodios",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios",
+      "target": "_self",
+      "activo": "sí"
+    },
+    {
+      "clave": "bibliografia_fuentes",
+      "texto": "Ver bibliografía",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=bibliografia",
+      "target": "_self",
+      "activo": "sí"
+    },
+    {
+      "clave": "legal_aviso",
+      "texto": "Aviso legal",
+      "url": "",
+      "target": "",
+      "activo": "no"
+    },
+    {
+      "clave": "legal_privacidad",
+      "texto": "Política de privacidad",
+      "url": "",
+      "target": "",
+      "activo": "no"
+    },
+    {
+      "clave": "legal_cookies",
+      "texto": "Política de cookies",
+      "url": "",
+      "target": "",
+      "activo": "no"
+    }
+  ],
+  "social": [
+    {
+      "orden": "1",
+      "nombre": "Instagram",
+      "url": "https://www.instagram.com/historiaparaclosefriends/",
+      "icono_drive_url": "https://drive.google.com/file/d/1cCptE7KwOWeuchUhKpava25b9fPLKctH/view?usp=sharing"
+    },
+    {
+      "orden": "2",
+      "nombre": "TikTok",
+      "url": "https://www.tiktok.com/@historiaparaclosefriends",
+      "icono_drive_url": "https://drive.google.com/file/d/1xEMSBCEa4f2no5Tf41IFZjwOBk4YvuhJ/view?usp=sharing"
+    },
+    {
+      "orden": "3",
+      "nombre": "YouTube",
+      "url": "https://www.youtube.com/@HistoriaparaCloseFriends",
+      "icono_drive_url": "https://drive.google.com/file/d/1nobH3VTa8Yd0nc8uysNp1WRj3jnRv5Lj/view?usp=sharing"
+    }
+  ],
+  "categories": [
+    {
+      "id": "civilizaciones",
+      "nombre": "Civilizaciones e imperios",
+      "descripcion": "Los grandes mundos, reinos e imperios de la historia",
+      "imagen_drive_url": "https://drive.google.com/file/d/17w3SDR43uvp883V8TYmvr5uf-rp-MUix/view?usp=sharing",
+      "color": "#3170E9",
+      "orden": "1",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=civilizaciones-e-imperios"
+    },
+    {
+      "id": "espana",
+      "nombre": "España y antes de serlo",
+      "descripcion": "Historias, dramas y aventuras ocurridas en España",
+      "imagen_drive_url": "https://drive.google.com/file/d/1ebqqOhkCOD82H92b5TJD4b4hytgLrafH/view?usp=sharing",
+      "color": "#DE7835",
+      "orden": "2",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=espana-y-antes-de-serlo"
+    },
+    {
+      "id": "revoluciones",
+      "nombre": "Revoluciones y conflictos",
+      "descripcion": "Cuando todo se lía y cambia el mundo",
+      "imagen_drive_url": "https://drive.google.com/file/d/17wEdAvgREeVxDuijRIOuxgrdq4sBqNVp/view?usp=sharing",
+      "color": "#F9DDF1",
+      "orden": "3",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=revoluciones-y-conflictos"
+    },
+    {
+      "id": "arte",
+      "nombre": "Arte, cultura y sociedad",
+      "descripcion": "Las ideas, obras y personas que cambiaron su época",
+      "imagen_drive_url": "https://drive.google.com/file/d/1Mjxpqhd6Q6RpJMRL38ibnHZsVzP23oHm/view?usp=sharing",
+      "color": "#7FCC6E",
+      "orden": "4",
+      "url": "https://script.google.com/macros/s/AKfycbx2UTuFySilhtbug8ppn9vdrUF74oYUUqA6aq8vAg6tN-FrTNYn6lKEPbs8_DiCbzp1/exec?pagina=episodios&categoria=arte-cultura-y-sociedad"
+    }
+  ],
+  "episodes": [
+    {
+      "fecha": "2025-06-12",
+      "titulo": "Los sumerios",
+      "subtitulo": "Cuando empezamos a apuntar las cosas",
+      "categorias": "civilizaciones",
+      "periodo": "4000 a. C.",
+      "url_audio": "https://open.spotify.com/episode/36iQ0MnV1ErNXGcHwtnQJB?si=sDeidyCbREKJJA_oWn39VQ",
+      "url_youtube": "https://youtu.be/dgxzEh_vRuQ?si=ZrFpUPbqL4z8kOqH"
+    },
+    {
+      "fecha": "2025-06-26",
+      "titulo": "La Revolución Rusa",
+      "subtitulo": "Cuando ya se cantaba Ra Ra Rasputín",
+      "categorias": "revoluciones",
+      "periodo": "1917",
+      "url_audio": "https://open.spotify.com/episode/7fluqNDASvkp8TzBmSIO6t?si=VdCs88b4ScWyR0alE_IUyA",
+      "url_youtube": "https://youtu.be/uCS-tKrvb50?si=qtB6nNqz7rHe4IVa"
+    },
+    {
+      "fecha": "2025-07-10",
+      "titulo": "La Guerra de Sucesión Castellana",
+      "subtitulo": "Cuando un chisme cambió la historia",
+      "categorias": "espana, revoluciones",
+      "periodo": "1475",
+      "url_audio": "https://open.spotify.com/episode/1epIcgFguvluEEgpZjQtOz?si=p-bO8TI3Qs-KTj0jT1DJ_Q",
+      "url_youtube": "https://youtu.be/5ieak59s9sQ?si=mkEZ4ZA6bFjllanK"
+    },
+    {
+      "fecha": "2025-07-24",
+      "titulo": "La Polinesia",
+      "subtitulo": "Cuando tu continente es el océano",
+      "categorias": "civilizaciones",
+      "periodo": "1000 a. C.",
+      "url_audio": "https://open.spotify.com/episode/1q4ULG5SOAWNvBuM3qY1Zv?si=C1--dmCXR6WhQMPNRmQcew",
+      "url_youtube": "https://youtu.be/9jisNYQeTAw?si=63KYO6N1W6KCjqKG"
+    },
+    {
+      "fecha": "2025-08-14",
+      "titulo": "Las Guerras del Opio",
+      "subtitulo": "Cuando Reino Unido fue el mayor narcoestado",
+      "categorias": "revoluciones",
+      "periodo": "1839",
+      "url_audio": "https://open.spotify.com/episode/5ItjINBfWh4BMj1CPFTyOH?si=cNojufWdTguf79rXkCC-0w",
+      "url_youtube": "https://youtu.be/fLsaO9FSR9I?si=xBvGVmbNykyd169s"
+    },
+    {
+      "fecha": "2025-08-28",
+      "titulo": "Los Médici",
+      "subtitulo": "Cuando el arte era la mejor campaña electoral",
+      "categorias": "arte",
+      "periodo": "s. XVI",
+      "url_audio": "https://open.spotify.com/episode/6S7gpveTMYnoyaGd8kxKnS?si=YWPWDUM5SoCkTArfy4Qxqg",
+      "url_youtube": "https://youtu.be/EZzhiihy4yo?si=La_mblrqsVUAKJmT"
+    },
+    {
+      "fecha": "2025-09-11",
+      "titulo": "El Imperio Inca",
+      "subtitulo": "Cuando todos los caminos llevaban al Cusco",
+      "categorias": "civilizaciones",
+      "periodo": "s. XV",
+      "url_audio": "https://open.spotify.com/episode/5DkbyPupJmuXKtk9vSD0R6?si=wF7uPBuUTeCz4tcjP2odVQ",
+      "url_youtube": "https://youtu.be/fRmm9deh9Fs?si=vfhG-oJNlVFyd1Rk"
+    },
+    {
+      "fecha": "2025-10-02",
+      "titulo": "La Segunda República",
+      "subtitulo": "Cuando España quiso ser una moderna",
+      "categorias": "espana, revoluciones",
+      "periodo": "1931",
+      "url_audio": "https://open.spotify.com/episode/4NCBP64QAcpdjQfnzOR5N7?si=_kTQNOcyS-2eYOPuRGy_GA",
+      "url_youtube": "https://youtu.be/tJ8lA46eXoE?si=6B8XJwSWfJjshPBf"
+    }
+  ],
+  "bibliography": [
+    {
+      "orden": "1",
+      "titulo": "Los sumerios",
+      "subtitulo": "Cuando empezamos a apuntar las cosas",
+      "url_pdf": "https://drive.google.com/file/d/1dAefnvV_jUDMWLtkUl2y-2g-EsCZ5_b2/view?usp=sharing"
+    },
+    {
+      "orden": "2",
+      "titulo": "La Revolución Rusa",
+      "subtitulo": "Cuando ya se cantaba Ra Ra Rasputín",
+      "url_pdf": "https://drive.google.com/file/d/1D4tJXdibsKtZHbertivFGtZIK31vdCY3/view?usp=sharing"
+    },
+    {
+      "orden": "3",
+      "titulo": "La Guerra de Sucesión Castellana",
+      "subtitulo": "Cuando un chisme cambió la historia",
+      "url_pdf": "https://drive.google.com/file/d/11nnHhecQF366WoGIEKU2nrYl-w-COhXz/view?usp=sharing"
+    },
+    {
+      "orden": "4",
+      "titulo": "La Polinesia",
+      "subtitulo": "Cuando tu continente es el océano",
+      "url_pdf": "https://drive.google.com/file/d/1z38pQXuTIM6c7Xg1MGtUBRXNg3iPBSEK/view?usp=sharing"
+    },
+    {
+      "orden": "5",
+      "titulo": "Las Guerras del Opio",
+      "subtitulo": "Cuando Reino Unido fue el mayor narcoestado",
+      "url_pdf": "https://drive.google.com/file/d/1eLV8bbj_gb-wShPkVfylb3CAuFwouMWh/view?usp=sharing"
+    },
+    {
+      "orden": "6",
+      "titulo": "Los Médici",
+      "subtitulo": "Cuando el arte era la mejor campaña electoral",
+      "url_pdf": "https://drive.google.com/file/d/1dh3CyAdGBdEXh1wueBfcUF6F2OrFkz4w/view?usp=sharing"
+    },
+    {
+      "orden": "7",
+      "titulo": "El Imperio Inca",
+      "subtitulo": "Cuando todos los caminos llevaban al Cusco",
+      "url_pdf": "https://drive.google.com/file/d/1p4WtjLcpMDShs-fon3FCpXzpWCWpovC0/view?usp=sharing"
+    },
+    {
+      "orden": "8",
+      "titulo": "La Segunda República",
+      "subtitulo": "Cuando España quiso ser una moderna",
+      "url_pdf": "https://drive.google.com/file/d/1wH2LW4FiNjAPUmPFFSYN0Wex3ZIbKYR-/view?usp=sharing"
+    }
+  ],
+  "platforms": [
+    {
+      "orden": "1",
+      "nombre": "Spotify",
+      "url": "https://open.spotify.com/show/4cjYSY9JofzA4vvLkDBrxP?si=7zkB735nSqi2lnG7UyN2WA"
+    },
+    {
+      "orden": "2",
+      "nombre": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/es/podcast/historia-para-close-friends/id6801561675"
+    },
+    {
+      "orden": "3",
+      "nombre": "YouTube",
+      "url": "https://www.youtube.com/@HistoriaparaCloseFriends/podcasts"
+    },
+    {
+      "orden": "4",
+      "nombre": "iVoox",
+      "url": "https://go.ivoox.com/sq/3216938"
+    }
+  ],
+  "legal_notice": [
+    {
+      "orden": "1",
+      "titulo": "Titularidad de la web",
+      "contenido": "Historia para Close Friends es un proyecto personal gestionado por Andrea Guillén Rodríguez desde Balaguer, Lleida (España). Para cualquier consulta relacionada con la web puedes escribir a historiaparaclosefriends@gmail.com.",
+      "activo": "sí"
+    },
+    {
+      "orden": "2",
+      "titulo": "Objeto y condiciones de uso",
+      "contenido": "Esta web reúne contenidos sobre el pódcast Historia para Close Friends. Puedes navegar por ella y consultar sus episodios, referencias y enlaces. Te pedimos que hagas un uso respetuoso del contenido y que no interfieras en el funcionamiento de la web.",
+      "activo": "sí"
+    },
+    {
+      "orden": "3",
+      "titulo": "Propiedad intelectual",
+      "contenido": "Salvo que se indique lo contrario, los textos originales, el diseño, la identidad visual y los materiales propios de Historia para Close Friends pertenecen a Andrea Guillén Rodríguez. No está permitida su reproducción, distribución o transformación sin autorización previa. Las citas, referencias y materiales de terceros se muestran con fines informativos o de divulgación y conservan los derechos de sus respectivos titulares.",
+      "activo": "sí"
+    },
+    {
+      "orden": "4",
+      "titulo": "Enlaces externos",
+      "contenido": "La web incluye enlaces a Spotify, YouTube, Google Drive y otras plataformas externas. Historia para Close Friends no controla sus contenidos, disponibilidad ni políticas de privacidad, por lo que te recomendamos revisar sus condiciones antes de utilizar esos servicios.",
+      "activo": "sí"
+    },
+    {
+      "orden": "5",
+      "titulo": "Responsabilidad",
+      "contenido": "Se procura que la información publicada sea correcta y esté actualizada, pero no se garantiza que esté libre de errores o interrupciones. Historia para Close Friends no se responsabiliza de los daños derivados del uso de esta web ni del contenido de los enlaces externos.",
+      "activo": "sí"
+    },
+    {
+      "orden": "6",
+      "titulo": "Legislación aplicable",
+      "contenido": "Este aviso legal se rige por la legislación española. Para cualquier cuestión relacionada con esta web, las partes se someterán a los juzgados y tribunales que correspondan conforme a la normativa aplicable.",
+      "activo": "sí"
+    }
+  ]
+}
