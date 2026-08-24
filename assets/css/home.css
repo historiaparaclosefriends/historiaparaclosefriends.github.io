@@ -288,27 +288,27 @@
         transform: translateY(-155px);
       }
 
-      /* En tablet mantenemos la imagen en dos columnas, pero la bajamos para que
-         dialogue con el titular y evitamos el gran hueco antes del último episodio. */
+      /* En tablet mantenemos la imagen en dos columnas, alineada con el titular,
+         y compactamos el cierre del hero antes del último episodio. */
       @media (min-width: 761px) and (max-width: 1100px) {
         .hero {
           width: min(100% - 64px, 1000px);
           grid-template-columns: minmax(0, 1fr) minmax(250px, .74fr);
           align-items: start;
           gap: 8px;
-          min-height: 450px;
-          padding: 34px 0 16px;
+          min-height: 390px;
+          padding: 24px 0 0;
         }
 
         .hero-art {
-          min-height: 390px;
+          min-height: 320px;
           margin-bottom: 0;
-          padding-top: 38px;
+          padding-top: 0;
         }
 
         .hero-art img {
           width: min(132%, 540px);
-          transform: translateY(-62px);
+          transform: translateY(-140px);
         }
       }
 
