@@ -16,6 +16,8 @@
   const normalize = hcf?.normalize || (value => String(value || '').trim().toLowerCase());
   const visualFor = hcf?.visualFor || (() => ({ color: '#3170E9', pale: '#96C7FA', image: 'categoria-civilizaciones.png' }));
   const setText = (selector, text) => { const node = document.querySelector(selector); if (node && text) node.textContent = text; };
+  const removeLeadingEmoji = text => String(text || '').replace(/^[\p{Extended_Pictographic}\p{Emoji_Component}\s]+/u, '').trim();
+  const setHeading = (selector, text) => setText(selector, removeLeadingEmoji(text));
   const episodeDate = episode => new Date(`${episode.fecha || '1970-01-01'}T00:00:00`).getTime() || 0;
 
   const applyHomeCopy = (home, episodes) => {
@@ -29,19 +31,19 @@
     setText('.hero-actions .button-secondary', home.hero_cta_secundario);
     const primary = document.querySelector('.hero-actions .button-primary');
     if (primary && home.hero_url_principal) primary.href = home.hero_url_principal;
-    setText('.latest-heading', home.latest_heading);
+    setHeading('.latest-heading .heading-copy', home.latest_heading);
     setText('.episodes-more h3', home.previous_heading);
     setText('.episodes-more p', home.previous_description);
     setText('.episodes-more a', home.previous_link_label);
-    setText('.categories-title-text', home.categories_heading);
+    setHeading('.categories-title-text', home.categories_heading);
     setText('.random-title', home.random_heading);
     setText('[data-random-episode]', home.random_button_label);
-    setText('.timeline-section-title', home.timeline_heading);
+    setHeading('.timeline-section-title .heading-copy', home.timeline_heading);
     setText('.timeline-section-subtitle', home.timeline_subtitle);
-    setText('.bibliography-note h2', home.resources_heading);
+    setHeading('.bibliography-note h2 .heading-copy', home.resources_heading);
     setText('.bibliography-note p', home.resources_description);
     setText('.bibliography-note a', home.resources_link_label);
-    setText('#listen-heading', home.listen_heading);
+    setHeading('#listen-heading .heading-copy', home.listen_heading);
     setText('.listen-section > p', home.listen_description);
 
     const latest = [...episodes].sort((a, b) => episodeDate(b) - episodeDate(a))[0];
