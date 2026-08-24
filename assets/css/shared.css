@@ -40,6 +40,22 @@
   .footer-legal a { color: rgba(23,23,23,.62); font-size: 11px; }
   .footer-nav a:hover, .footer-legal a:hover { color: var(--blue); text-decoration: underline; }
   .footer-meta { padding: 0 16px 22px; display: flex; justify-content: space-between; gap: 16px; }
+  .footer-cookie-settings { padding: 0; border: 0; background: transparent; color: rgba(23,23,23,.62); cursor: pointer; font: inherit; font-size: 11px; text-decoration: underline; }
+  .footer-cookie-settings:hover { color: var(--blue); }
+
+  /* Aviso de privacidad: el código de Analytics no se carga hasta aceptar. */
+  .cookie-banner { position: fixed; z-index: 1100; right: 18px; bottom: 18px; left: 18px; width: min(660px, calc(100% - 36px)); margin-left: auto; padding: 20px; border: 2px solid var(--ink); border-radius: 18px; background: rgba(255, 253, 247, .98); box-shadow: 7px 7px 0 rgba(23,23,23,.14), 0 12px 35px rgba(23,23,23,.18); }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-banner-title { margin: 0 0 7px; font-size: 20px; font-weight: 800; line-height: 1; }
+  .cookie-banner-copy { margin: 0; font-size: 14px; font-weight: 600; line-height: 1.38; }
+  .cookie-banner-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+  .cookie-banner-links a { color: var(--blue); font-size: 13px; font-weight: 700; }
+  .cookie-banner-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 17px; }
+  .cookie-button { min-height: 42px; padding: 9px 15px; border: 2px solid var(--ink); border-radius: 11px; cursor: pointer; font: inherit; font-size: 14px; font-weight: 800; }
+  .cookie-button-accept { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .cookie-button-reject { background: #fff; color: var(--ink); }
+  .cookie-button:hover { transform: translateY(-2px); }
+  .cookie-button:focus-visible, .footer-cookie-settings:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
   @media (max-width: 780px) {
     .site-header { grid-template-columns: 1fr auto; width: min(100% - 28px, 1180px); }
     .desktop-nav { grid-column: 1 / -1; grid-row: 2; justify-content: space-between; gap: 10px; padding-bottom: 14px; }
@@ -47,6 +63,7 @@
     .footer-content, .footer-meta { width: calc(100% - 28px); }
     .footer-content { grid-template-columns: 1fr; }
     .footer-meta { flex-direction: column; }
+    .cookie-banner { right: 14px; bottom: 14px; left: 14px; width: auto; padding: 17px; }
   }
   @media (max-width: 480px) {
     .wordmark-icon { width: 28px; height: 34px; }
