@@ -83,12 +83,20 @@
     const card = root?.querySelector('[data-timeline-card]');
     if (!rail || !card || !episodes.length) return;
     const chronological = [...episodes].sort((a, b) => timelineNumber(a.periodo) - timelineNumber(b.periodo));
-    rail.innerHTML = `<span class="timeline-zero" aria-hidden="true"></span><span class="timeline-zero-label">0</span>${chronological.map((episode, index) => {
-      const left = chronological.length === 1 ? 50 : 8 + (88 * index / (chronological.length - 1));
+    const positions = chronological.map((_, index) => chronological.length === 1 ? 50 : 8 + (88 * index / (chronological.length - 1)));
+    // El año 0 se inserta entre la última fecha a. C. y la primera d. C.
+    const firstPositiveIndex = chronological.findIndex(episode => timelineNumber(episode.periodo) >= 0);
+    const zeroAfterIndex = firstPositiveIndex > 0 ? firstPositiveIndex - 1 : -1;
+    const zeroLeft = zeroAfterIndex >= 0 && positions[firstPositiveIndex] !== undefined
+      ? (positions[zeroAfterIndex] + positions[firstPositiveIndex]) / 2
+      : 50;
+  const zeroMarkup = `<span class="timeline-zero" style="left:${zeroLeft}%" aria-hidden="true"></span><span class="timeline-zero-label" style="left:${zeroLeft}%">0</span>`;
+    rail.innerHTML = chronological.map((episode, index) => {
+      const left = positions[index];
       const category = normalize(String(episode.categorias).split(',')[0]);
       const visual = visualFor(category, categories);
-      return `<button class="timeline-dot${index === 0 ? ' is-active' : ''}" type="button" data-title="${escape(episode.titulo)}" data-subtitle="${escape(episode.subtitulo)}" data-audio="${escape(episode.url_audio)}" data-color="${escape(visual.color)}" data-pale="${escape(visual.pale)}" style="left:${left}%" aria-label="${escape(episode.periodo)} · ${escape(episode.titulo)}"></button><span class="timeline-date" style="left:${left}%">${escape(episode.periodo)}</span>`;
-    }).join('')}`;
+      return `<button class="timeline-dot${index === 0 ? ' is-active' : ''}" type="button" data-title="${escape(episode.titulo)}" data-subtitle="${escape(episode.subtitulo)}" data-audio="${escape(episode.url_audio)}" data-color="${escape(visual.color)}" data-pale="${escape(visual.pale)}" style="left:${left}%" aria-label="${escape(episode.periodo)} · ${escape(episode.titulo)}"></button><span class="timeline-date" style="left:${left}%">${escape(episode.periodo)}</span>${index === zeroAfterIndex ? zeroMarkup : ''}`;
+    }).join('');
     const dots = [...rail.querySelectorAll('.timeline-dot')];
     const title = card.querySelector('[data-timeline-title]');
     const subtitle = card.querySelector('[data-timeline-subtitle]');
