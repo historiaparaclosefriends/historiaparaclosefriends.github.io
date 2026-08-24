@@ -349,8 +349,9 @@
       }
 
       .episodes-more {
-        border: 1px solid rgba(23, 23, 23, .45);
-        background: var(--paper);
+        border: 2px solid var(--ink);
+        background: #f8f1e5;
+        box-shadow: 4px 4px 0 rgba(23, 23, 23, .10);
       }
 
       .episodes-more h3 {
