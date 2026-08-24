@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:50:30.992Z",
+  "generated_at": "2026-08-24T17:21:39.781Z",
   "home": {
     "hero_titulo_linea_1": "Aprende",
     "hero_titulo_linea_2": "historia",
@@ -28,7 +28,12 @@
     "resources_link_label": "Ver fuentes →",
     "listen_heading": "🎧 ¡Escúchalo donde quieras!",
     "listen_description": "Elige tu plataforma de confianza, que del contenido me encargo yo.",
-    "latest_button_label": "🎧 Escuchar"
+    "latest_button_label": "🎧 Escuchar",
+    "ga_measurement_id": "G-XRMSCZD1KS",
+    "cookie_banner_title": "🍪 Tus preferencias",
+    "cookie_banner_copy": "Usamos el almacenamiento necesario para recordar tu decisión. Solo activaremos Google Analytics si aceptas las cookies analíticas.",
+    "cookie_reject_label": "Rechazar analítica",
+    "cookie_accept_label": "Aceptar analítica"
   },
   "links": [
     {
@@ -354,31 +359,57 @@
     {
       "orden": "2",
       "titulo": "Datos que se recogen",
-      "contenido": "La navegación normal por esta web no incluye formularios de registro, cuentas de usuario ni venta de productos. Si escribes al correo de contacto, se tratarán los datos que incluyas en tu mensaje para poder responderte.",
+      "contenido": "La navegación normal por esta web no incluye formularios de registro, cuentas de usuario ni venta de productos. Si escribes al correo de contacto, se tratarán los datos que incluyas en tu mensaje para poder responderte. Solo si aceptas las cookies analíticas, Google Analytics podrá recoger información seudonimizada sobre el uso de la web, como páginas visitadas, interacciones, navegador, dispositivo y datos técnicos de navegación.",
       "activo": "sí"
     },
     {
       "orden": "3",
       "titulo": "Finalidad y base jurídica",
-      "contenido": "Los datos enviados por correo se utilizan únicamente para atender la consulta o solicitud recibida. La base jurídica es tu consentimiento al contactar voluntariamente.",
+      "contenido": "Los datos enviados por correo se utilizan únicamente para atender la consulta o solicitud recibida. La base jurídica es tu consentimiento al contactar voluntariamente. La analítica se utiliza para conocer de forma agregada cómo se navega por la web y mejorarla. Solo se activa si das tu consentimiento mediante el aviso de cookies; puedes retirarlo en cualquier momento desde el enlace Configurar cookies del pie de página.",
       "activo": "sí"
     },
     {
       "orden": "4",
       "titulo": "Conservación",
-      "contenido": "Los mensajes y datos asociados se conservarán durante el tiempo necesario para atender la consulta y, cuando corresponda, durante los plazos legales aplicables.",
+      "contenido": "Los mensajes y datos asociados se conservarán durante el tiempo necesario para atender la consulta y, cuando corresponda, durante los plazos legales aplicables. Los datos de Google Analytics se conservan durante el periodo configurado en Google Analytics y no se usan para identificarte directamente.",
       "activo": "sí"
     },
     {
       "orden": "5",
       "titulo": "Servicios y enlaces externos",
-      "contenido": "La web contiene enlaces o visores de servicios externos como Spotify, YouTube y Google Drive. Al utilizar esos servicios se aplican sus propias políticas de privacidad y condiciones.",
+      "contenido": "La web contiene enlaces o visores de servicios externos como Spotify, YouTube y Google Drive. Al utilizar esos servicios se aplican sus propias políticas de privacidad y condiciones. Si aceptas la analítica, Google Analytics actuará como proveedor tecnológico para las mediciones agregadas de uso.",
       "activo": "sí"
     },
     {
       "orden": "6",
       "titulo": "Tus derechos",
       "contenido": "Puedes solicitar acceso, rectificación, supresión, limitación u oposición al tratamiento de tus datos escribiendo a historiaparaclosefriends@gmail.com. Si consideras que no se han atendido correctamente tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos.",
+      "activo": "sí"
+    }
+  ],
+  "cookies_policy": [
+    {
+      "orden": "1",
+      "titulo": "Qué utilizamos",
+      "contenido": "Esta web utiliza almacenamiento local estrictamente necesario para recordar tu elección sobre las cookies. No se utiliza para elaborar perfiles ni para publicidad. Google Analytics solo se carga si pulsas Aceptar analítica en el aviso de cookies.",
+      "activo": "sí"
+    },
+    {
+      "orden": "2",
+      "titulo": "Cookies analíticas",
+      "contenido": "Si aceptas la analítica, Google Analytics puede instalar cookies como _ga y _ga_<ID> para medir de forma agregada las visitas y el uso de la web. Su duración puede variar según la configuración de Google y puede llegar a dos años. No activamos funciones publicitarias ni señales de Google desde esta web.",
+      "activo": "sí"
+    },
+    {
+      "orden": "3",
+      "titulo": "Servicios de terceros",
+      "contenido": "Los enlaces y visores de Spotify, YouTube y Google Drive pertenecen a servicios externos. Cuando decides abrirlos, esos servicios pueden utilizar sus propias cookies o tecnologías; consulta sus políticas directamente.",
+      "activo": "sí"
+    },
+    {
+      "orden": "4",
+      "titulo": "Cómo cambiar tu decisión",
+      "contenido": "Puedes aceptar, rechazar o volver a decidir sobre la analítica en cualquier momento mediante el enlace Configurar cookies que encontrarás al pie de todas las páginas.",
       "activo": "sí"
     }
   ]
