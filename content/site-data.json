@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:38:27.417Z",
+  "generated_at": "2026-08-24T16:50:30.992Z",
   "home": {
     "hero_titulo_linea_1": "Aprende",
     "hero_titulo_linea_2": "historia",
@@ -341,6 +341,44 @@
       "orden": "6",
       "titulo": "Legislación aplicable",
       "contenido": "Este aviso legal se rige por la legislación española. Para cualquier cuestión relacionada con esta web, las partes se someterán a los juzgados y tribunales que correspondan conforme a la normativa aplicable.",
+      "activo": "sí"
+    }
+  ],
+  "privacy_policy": [
+    {
+      "orden": "1",
+      "titulo": "Responsable del tratamiento",
+      "contenido": "La responsable de esta web es Andrea Guillén Rodríguez, titular del proyecto personal Historia para Close Friends. Puedes contactar en historiaparaclosefriends@gmail.com.",
+      "activo": "sí"
+    },
+    {
+      "orden": "2",
+      "titulo": "Datos que se recogen",
+      "contenido": "La navegación normal por esta web no incluye formularios de registro, cuentas de usuario ni venta de productos. Si escribes al correo de contacto, se tratarán los datos que incluyas en tu mensaje para poder responderte.",
+      "activo": "sí"
+    },
+    {
+      "orden": "3",
+      "titulo": "Finalidad y base jurídica",
+      "contenido": "Los datos enviados por correo se utilizan únicamente para atender la consulta o solicitud recibida. La base jurídica es tu consentimiento al contactar voluntariamente.",
+      "activo": "sí"
+    },
+    {
+      "orden": "4",
+      "titulo": "Conservación",
+      "contenido": "Los mensajes y datos asociados se conservarán durante el tiempo necesario para atender la consulta y, cuando corresponda, durante los plazos legales aplicables.",
+      "activo": "sí"
+    },
+    {
+      "orden": "5",
+      "titulo": "Servicios y enlaces externos",
+      "contenido": "La web contiene enlaces o visores de servicios externos como Spotify, YouTube y Google Drive. Al utilizar esos servicios se aplican sus propias políticas de privacidad y condiciones.",
+      "activo": "sí"
+    },
+    {
+      "orden": "6",
+      "titulo": "Tus derechos",
+      "contenido": "Puedes solicitar acceso, rectificación, supresión, limitación u oposición al tratamiento de tus datos escribiendo a historiaparaclosefriends@gmail.com. Si consideras que no se han atendido correctamente tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos.",
       "activo": "sí"
     }
   ]
