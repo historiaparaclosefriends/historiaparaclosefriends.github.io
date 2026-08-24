@@ -552,7 +552,6 @@
 
       .timeline-zero {
         position: absolute;
-        left: 38%;
         top: 18px;
         width: 3px;
         height: 48px;
@@ -563,7 +562,6 @@
 
       .timeline-zero-label {
         position: absolute;
-        left: 38%;
         top: 72px;
         transform: translateX(-50%);
         color: var(--ink);
@@ -944,20 +942,22 @@
         /* En móvil la línea se convierte en una cronología vertical táctil. */
         .timeline-rail {
           display: grid;
-          grid-template-columns: 32px minmax(0, 1fr);
+          grid-template-columns: 44px max-content;
           grid-auto-rows: minmax(32px, auto);
           align-items: center;
-          gap: 10px 13px;
-          width: min(100%, 250px);
+          justify-content: center;
+          gap: 10px 14px;
+          width: max-content;
+          max-width: 100%;
           height: auto;
-          margin: 0 auto;
+          margin: 0 auto !important;
           padding: 4px 0;
         }
 
         .timeline-rail::before {
           top: 10px;
           bottom: 10px;
-          left: 14px;
+          left: 20px;
           right: auto;
           width: 4px;
           height: auto;
@@ -967,15 +967,15 @@
           display: none;
         }
 
-        /* Conserva la marca del año 0 también en la cronología vertical. */
+        /* El 0 es una marca horizontal entre a. C. y d. C. */
         .timeline-zero {
           position: relative;
           top: auto;
-          left: auto;
+          left: auto !important;
           grid-column: 1;
           justify-self: center;
-          width: 4px;
-          height: 42px;
+          width: 44px;
+          height: 4px;
           background: var(--ink);
         }
 
@@ -986,6 +986,7 @@
           grid-column: 2;
           transform: none;
           align-self: center;
+          justify-self: start;
           font-size: 15px;
         }
 
@@ -994,6 +995,7 @@
           top: auto;
           left: auto !important;
           grid-column: 1;
+          justify-self: center;
           width: 30px;
           height: 30px;
         }
