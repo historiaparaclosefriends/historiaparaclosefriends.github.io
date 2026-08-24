@@ -62,7 +62,8 @@
     grid.innerHTML = orderBy(categories).map(category => {
       const id = normalize(category.id);
       const visual = visualFor(id, categories);
-      return `<a class="category-card" href="episodios/?categoria=${encodeURIComponent(id)}" style="--category-color:${escape(visual.color)}" aria-label="Explorar ${escape(category.nombre)}"><span class="category-art"><img src="assets/images/${escape(visual.image)}" alt=""></span><span class="category-name">${escape(category.nombre)}</span></a>`;
+      const background = visual.categoryBackground ? `;--category-background:${escape(visual.categoryBackground)}` : '';
+      return `<a class="category-card" href="episodios/?categoria=${encodeURIComponent(id)}" style="--category-color:${escape(visual.categoryColor || visual.color)}${background}" aria-label="Explorar ${escape(category.nombre)}"><span class="category-art"><img src="assets/images/${escape(visual.image)}" alt=""></span><span class="category-name">${escape(category.nombre)}</span></a>`;
     }).join('');
   };
 

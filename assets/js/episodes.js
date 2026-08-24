@@ -14,7 +14,7 @@
     if (!filterContainer || !grid) return;
     filterContainer.innerHTML = `<a class="episode-filter" href="./" data-category="todos">Todos</a>${categories.map(category => {
       const visual = visualFor(category.id, categories);
-      return `<a class="episode-filter" href="?categoria=${encodeURIComponent(category.id)}" data-category="${escape(normalize(category.id))}" style="--filter-color:${escape(visual.pale)};--filter-pale:#fff">${escape(category.nombre)}</a>`;
+      return `<a class="episode-filter" href="?categoria=${encodeURIComponent(category.id)}" data-category="${escape(normalize(category.id))}" style="--filter-color:${escape(visual.filterColor || visual.color)};--filter-pale:${escape(visual.pale)}">${escape(category.nombre)}</a>`;
     }).join('')}`;
     grid.innerHTML = [...data.episodes].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha))).map(episode => {
       const category = normalize(String(episode.categorias).split(',')[0]);
