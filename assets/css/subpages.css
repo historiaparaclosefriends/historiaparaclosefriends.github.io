@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+.hcf-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+  flex: 1;
+  padding: 36px 0 58px;
+}
+
+.page-title {
+  margin: 0 0 20px;
+  font-size: clamp(38px, 5vw, 62px);
+  font-weight: 800;
+  line-height: .92;
+}
+
+/* Episodios */
+.episode-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; }
+.episode-filter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 8px 15px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+.episode-filter:hover { transform: translateY(-2px); background: var(--filter-pale, var(--pink)); border-color: var(--filter-pale, var(--pink)); }
+.episode-filter.is-active { background: var(--filter-color, var(--ink)); border-color: var(--filter-color, var(--ink)); color: #fff; }
+.episode-filter.is-active[data-category="civilizaciones"],
+.episode-filter.is-active[data-category="espana"],
+.episode-filter.is-active[data-category="revoluciones"],
+.episode-filter.is-active[data-category="arte"] { color: var(--ink); }
+.episode-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.episode-tile {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 88px;
+  padding: 15px 19px 15px 47px;
+  border: 1.5px solid rgba(23, 23, 23, .22);
+  border-radius: 16px;
+  background: var(--topic-pale);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.episode-tile:hover { transform: translateY(-3px); box-shadow: 0 7px 0 color-mix(in srgb, var(--topic) 25%, transparent); }
+.episode-tile:focus-visible, .episode-filter:focus-visible, .bibliography-action:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.episode-tile-bar { position: absolute; top: 14px; bottom: 14px; left: 14px; width: 10px; border-radius: 99px; background: var(--topic); }
+.episode-tile h2 { margin: 0 0 4px; font-size: clamp(19px, 2.05vw, 27px); font-weight: 800; line-height: .98; }
+.episode-tile p { margin: 0; font-size: clamp(13px, 1.15vw, 16px); line-height: 1.18; }
+.episode-tile-arrow { color: var(--topic); font-size: 24px; font-weight: 800; }
+.episode-empty { margin: 4px 0; font-weight: 600; }
+
+/* Bibliografía */
+.bibliography-page { width: min(1040px, calc(100% - 48px)); }
+.bibliography-heading { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 28px; }
+.bibliography-heading .page-title { margin: 0; }
+.bibliography-intro { max-width: 290px; margin: 0 0 4px; color: rgba(23, 23, 23, .68); font-size: 14px; line-height: 1.35; }
+.bibliography-catalog { border-top: 2px solid var(--ink); }
+.bibliography-entry { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 0; border-bottom: 1px solid rgba(23, 23, 23, .35); }
+.bibliography-marker { align-self: stretch; min-height: 62px; border-radius: 99px; background: var(--topic); }
+.bibliography-entry h2 { margin: 0 0 4px; font-size: clamp(18px, 2vw, 25px); font-weight: 800; line-height: 1; }
+.bibliography-entry p { margin: 0; color: rgba(23, 23, 23, .7); font-size: 13px; line-height: 1.3; }
+.bibliography-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.bibliography-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 6px 10px;
+  border: 1.5px solid var(--blue);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--blue) !important;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform .18s ease, background-color .18s ease, border-color .18s ease, color .18s ease;
+}
+.bibliography-action:hover { transform: translateY(-2px); border-color: var(--orange); background: var(--orange); color: #fff !important; }
+
+/* Visores superpuestos */
+.overlay { position: fixed; z-index: 100; inset: 0; display: grid; place-items: center; padding: 22px; background: rgba(23, 23, 23, .62); opacity: 0; pointer-events: none; transition: opacity .2s ease; }
+.overlay.is-open { opacity: 1; pointer-events: auto; }
+.overlay-dialog { position: relative; width: min(900px, 100%); overflow: hidden; border-radius: 20px; background: var(--modal-pale, var(--light-blue)); box-shadow: 0 18px 50px rgba(23,23,23,.3); }
+.overlay-close { position: absolute; z-index: 2; top: 10px; right: 12px; width: 38px; height: 38px; border: 0; border-radius: 50%; background: var(--modal-color, var(--blue)); color: #fff; cursor: pointer; font-size: 26px; line-height: 1; }
+.video-frame { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: #171717; }
+.pdf-dialog { display: grid; grid-template-rows: auto minmax(0, 1fr); width: min(1080px, 100%); height: min(820px, 92vh); background: #fffef8; }
+.pdf-topbar { display: flex; align-items: center; justify-content: space-between; gap: 55px; min-height: 57px; padding: 10px 65px 10px 20px; border-bottom: 1px solid rgba(23,23,23,.14); background: repeating-linear-gradient(to bottom, #fffef8 0 31px, rgba(150,199,250,.25) 32px 33px); }
+.pdf-topbar h2 { overflow: hidden; margin: 0; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
+.pdf-download { min-height: 34px; padding: 7px 11px; border-radius: 99px; background: var(--blue); color: #fff !important; }
+.pdf-frame { width: 100%; height: 100%; border: 0; background: #eee; }
+
+@media (max-width: 700px) {
+  .page-content, .bibliography-page { width: min(100% - 28px, 1120px); padding-top: 28px; }
+  .episode-grid { grid-template-columns: 1fr; }
+  .bibliography-heading { display: block; margin-bottom: 24px; }
+  .bibliography-intro { margin-top: 14px; }
+  .bibliography-entry { grid-template-columns: 10px minmax(0, 1fr); gap: 12px; }
+  .bibliography-marker { min-height: 58px; }
+  .bibliography-actions { grid-column: 2; justify-content: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .page-title { font-size: 38px; }
+  .episode-filter { min-height: 38px; padding: 7px 12px; font-size: 12px; }
+  .episode-tile { min-height: 82px; padding: 14px 14px 14px 40px; }
+  .episode-tile-bar { left: 12px; width: 9px; }
+  .episode-tile h2 { font-size: 20px; }
+  .overlay { padding: 10px; }
+  .overlay-dialog { border-radius: 15px; }
+  .pdf-dialog { height: 94vh; }
+  .pdf-topbar { gap: 12px; padding-left: 16px; }
+}
