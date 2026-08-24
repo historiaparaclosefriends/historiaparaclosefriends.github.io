@@ -288,6 +288,30 @@
         transform: translateY(-155px);
       }
 
+      /* En tablet mantenemos la imagen en dos columnas, pero la bajamos para que
+         dialogue con el titular y evitamos el gran hueco antes del último episodio. */
+      @media (min-width: 761px) and (max-width: 1100px) {
+        .hero {
+          width: min(100% - 64px, 1000px);
+          grid-template-columns: minmax(0, 1fr) minmax(250px, .74fr);
+          align-items: start;
+          gap: 8px;
+          min-height: 450px;
+          padding: 34px 0 16px;
+        }
+
+        .hero-art {
+          min-height: 390px;
+          margin-bottom: 0;
+          padding-top: 38px;
+        }
+
+        .hero-art img {
+          width: min(132%, 540px);
+          transform: translateY(-62px);
+        }
+      }
+
       .latest-band {
         background-color: var(--paper);
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Ccircle cx='2' cy='2' r='1.25' fill='%2396C7FA' fill-opacity='.22'/%3E%3C/svg%3E");
