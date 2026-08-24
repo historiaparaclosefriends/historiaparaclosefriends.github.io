@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="assets/images/favicon-16.png" sizes="16x16" type="image/png">
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="stylesheet" href="assets/css/shared.css?v=4">
+    <link rel="stylesheet" href="assets/css/shared.css?v=5">
   <link rel="stylesheet" href="assets/css/home.css?v=8">
   </head>
   <body>
@@ -19,6 +19,7 @@
             <img class="wordmark-icon" src="assets/images/hero-logo.png" alt="">
             <span class="wordmark-copy"><span>HISTORIA PARA</span><span>CLOSE FRIENDS</span></span>
           </a>
+          <nav class="desktop-nav" aria-label="Navegación principal"><a href="episodios/">Episodios</a><a href="bibliografia/">Bibliografía</a></nav>
           <div class="header-actions">
             <div class="social-links" aria-label="Redes sociales">
               <!-- Las URLs reales de redes se cargarán desde la exportación de Sheets. -->
@@ -27,8 +28,10 @@
               <span class="social-link" aria-label="YouTube"><img src="assets/images/red-youtube.png" alt=""></span>
             </div>
             <a class="header-listen" href="https://open.spotify.com/show/4cjYSY9JofzA4vvLkDBrxP" target="_blank" rel="noopener noreferrer">🎧 Escuchar</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-navigation" data-header-menu-toggle><span></span><span></span><span></span></button>
           </div>
         </header>
+        <nav class="mobile-nav" id="mobile-navigation" aria-label="Navegación principal" hidden data-header-mobile-menu><a href="episodios/">Episodios</a><a href="bibliografia/">Bibliografía</a></nav>
       </div>
 
       <div class="hero-band">
@@ -105,6 +108,7 @@
     <script src="assets/js/analytics.js?v=1"></script>
     <script src="assets/js/cookie-consent.js?v=1"></script>
     <script src="assets/js/social-links.js"></script>
+    <script src="assets/js/header-menu.js?v=1"></script>
     <script src="assets/js/home.js?v=4"></script>
   </body>
 </html>
